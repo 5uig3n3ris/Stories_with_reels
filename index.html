@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Interactive Reel Story — Camera Zoom</title>
+<title>Interactive Reel Story</title>
 
 <!-- GSAP -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -117,6 +117,7 @@ body {
 </head>
 
 <body>
+ <h1> Are you ready 😎</h1>
 <!-- Progress -->
 <div class="progress-container">
   <div class="progress-bar" id="progress"></div>
@@ -397,7 +398,7 @@ reels.forEach(reel => {
           duration: 1.2,
           ease: "power2.out"
         });
-gsap.to(scene.querySelectorAll(".trigger"), {
+        gsap.to(scene.querySelectorAll(".trigger"), {
           opacity: 1,
           duration: 1.2,
           ease: "power2.out"
